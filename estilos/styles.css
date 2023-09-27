@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+:root{
+    --preto: black;
+    --branco: white;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+
+body{
+    box-sizing: border-box;
+    background-color: var(--preto);
+    color: #00bfff	;
+}
+.destaque{
+    color:#ff0000 ;
+}
+.aviso{
+    color:brown;
+}
+.apresentacao{
+    padding: 10% 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.jones{
+    width: 50%;
+}
+.titulo{
+    font-size: 2.25rem;
+    font-family: 'Krona One', sans-serif;
+}
+.historia{
+    font-size: 1.87rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.botao{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.87rem;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #00bfff;
+    font-family: 'Montserrat', sans-serif;
+    border:  solid pink;
+    gap: 5px;
+
+}
+.link:hover{
+    background-color: #4B0082;
+}
+.subtitulo{
+    font-size: 1.87rem;
+    font-family: 'Krona One', sans-serif;
+}
+.criador{
+    color: var(--preto);
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.87rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.nami{
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.25rem;
+    color: #C0C0C0;
+    text-decoration: none;
+}
+.cabeça{
+    padding: 1% 0% 0% 23%;
+}
+.sla{
+    display: flex;
+    gap: 30px   ;
+}
+
+@media (max-width:1200px){
+    .apresentacao{
+        display: flex;
+        flex-direction:column-reverse;
+        padding: 5%;
+    }
+    .cabeça{
+        padding: 10%;
+
+    }
+    .sla{
+        justify-content: center;
+    }
+    .conteudo{
+        width: auto;
+    }
+
+}
